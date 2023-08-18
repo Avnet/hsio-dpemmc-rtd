@@ -42,7 +42,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = 'hsio-dualcam'
+project = 'hsio-dpemmc'
 copyright = '2023, Avnet'
 author = 'Avnet'
 
@@ -111,7 +111,7 @@ html_sidebars = {
 # -- Options for HTMLHelp output ------------------------------------------
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'hsio-dualcamDocs'
+htmlhelp_basename = 'hsio-dpemmcDocs'
 
 
 # -- Options for LaTeX output ---------------------------------------------
@@ -138,7 +138,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'hsio-dualcam.tex', 'Avnet HSIO DualCam Module Getting Started Guide',
+    (master_doc, 'hsio-dpemmc.tex', 'Avnet DPeMMC HSIO Module Getting Started Guide',
      'Avnet', 'manual'),
 ]
 
@@ -148,7 +148,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'hsio-dualcam', 'Avnet HSIO DualCam Module Getting Started Guide',
+    (master_doc, 'hsio-dpemmc', 'Avnet DPeMMC HSIO Module Getting Started Guide',
      [author], 1)
 ]
 
@@ -159,7 +159,7 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'hsio-dualcam', 'Avnet HSIO DualCam Module Getting Started Guide',
-     author, 'hsio-dualcam', 'Avnet HSIO DualCam Module Getting Started Guide',
+    (master_doc, 'hsio-dpemmc', 'Avnet DPeMMC HSIO Module Getting Started Guide',
+     author, 'hsio-dpemmc', 'Avnet DPeMMC HSIO Module Getting Started Guide',
      'Miscellaneous'),
 ]
