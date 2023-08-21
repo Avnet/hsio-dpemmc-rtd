@@ -1,32 +1,28 @@
 Running the PetaLinux OS Image
 ==============================
+1. After the SDcard has been properly imaged, insert the card into your ZUBoard 1CG board. 
 
-After the SDcard has been properly imaged, insert the card into your ZUBoard 1CG. Install the `Avnet DP-eMMC HSIO module <http://avnet.me/dpemmc>`_ on the J2 HSIO connector.  Optionally you may also wish to connect a USB keyboard.  Be sure to connect a 1080p video monitor.
+2. Install the `Avnet DP-eMMC HSIO module <http://avnet.me/dpemmc>`_ on the "J2" HSIO connector.  Optionally you may also wish to connect a USB keyboard.  Be sure to connect a 1080p video monitor to the mini-DP connector (J3) on the DP-eMMC board.
 
-.. image:: images/DPeMMC_mounted_ZUBoard.png
+.. image:: images/DualCam_mounted_ZUBoard.jpg
     :align: center
 
-1. Set the J3 jumper on the ZUBoard to 1.2V I/O.  This is required for the MIPI interface for the cameras.
-
-.. image:: images/zuboard_j3_jumper.jpg
-    :align: center
-
-2. Set the boot mode switches (SW2) for SD card boot (1-4 off-on-off-on).
+3. Set the boot mode switches (SW2) for SD card boot (1-4 off-on-off-on).
 
 .. image:: images/zub1cg_sd_boot.jpg
     :align: center
     :scale: 40%
 
-3. Press the power switch (SW7) to turn on the board.  Once the board boots you will be prompted for login credentials.
+4. Connect the board to the `USB-C power adapter 15V/45W <http://avnet.me/zuboard-usb-supply/>`_ and press the power switch (SW7) to turn on the board.  Once the board boots you will be prompted for login credentials.
     * Login: root (no password required)
 
-3. Open a UART console connection to the ZUBoard 1CG
+5. Open a UART console connection to the ZUBoard 1CG
     * Baud 115200
     * 8 bits
     * No parity
     * 1 stop bit
 
-4. At the command prompt change to the **avnet_dualcam_python_examples** folder and launch the Python example.
+6. At the command prompt change to the **avnet_dualcam_python_examples** folder and launch the Python example.
 
 .. code-block:: console
 
@@ -36,7 +32,7 @@ After the SDcard has been properly imaged, insert the card into your ZUBoard 1CG
 .. image:: images/dualcam_passthrough.jpg
     :align: center
 
-5. Press <ctrl>-c to close the demo window.  There is also a Python anaglyph application example that can be run.
+7. Press <ctrl>-c to close the demo window.  There is also a Python anaglyph application example that can be run.
 
 .. code-block:: console
 
@@ -45,7 +41,7 @@ After the SDcard has been properly imaged, insert the card into your ZUBoard 1CG
 .. image:: images/dualcam_anaglyph.jpg
     :align: center
 
-6. Press <ctrl>-c to close the demo window.
+8. Press <ctrl>-c to close the demo window.
 
 Going Further
 =============
